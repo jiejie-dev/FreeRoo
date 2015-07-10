@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FreeRoo.Framework</RootNamespace>
+    <AssemblyName>FreeRoo.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="View\" />
+    <Folder Include="Compile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\IViewEngine.cs" />
+    <Compile Include="Compile\ICompiler.cs" />
+    <Compile Include="Compile\ICompileEngine.cs" />
+    <Compile Include="Compile\IProjectFileResolver.cs" />
+    <Compile Include="Compile\Compiler.cs" />
+    <Compile Include="Compile\MonoProjectResolver.cs" />
+    <Compile Include="Compile\CompileEngine.cs" />
+    <Compile Include="Compile\MonoProject.cs" />
+    <Compile Include="Compile\IProject.cs" />
+    <Compile Include="View\ViewEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Demo">
+      <HintPath>..\packages\Nancy.Demo.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy">
+      <HintPath>..\packages\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Owin">
+      <HintPath>..\packages\Nancy.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.ViewEngines.Razor">
+      <HintPath>..\packages\Nancy.ViewEngines.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\System.Web.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
