@@ -31,20 +31,18 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="View\" />
     <Folder Include="Compile\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="View\IViewEngine.cs" />
     <Compile Include="Compile\ICompiler.cs" />
     <Compile Include="Compile\ICompileEngine.cs" />
     <Compile Include="Compile\IProjectFileResolver.cs" />
     <Compile Include="Compile\Compiler.cs" />
-    <Compile Include="Compile\MonoProjectResolver.cs" />
     <Compile Include="Compile\CompileEngine.cs" />
-    <Compile Include="Compile\MonoProject.cs" />
     <Compile Include="Compile\IProject.cs" />
-    <Compile Include="View\ViewEngine.cs" />
+    <Compile Include="Resource.cs" />
+    <Compile Include="Compile\DefaultProject.cs" />
+    <Compile Include="Compile\DefaultProjectResolver.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

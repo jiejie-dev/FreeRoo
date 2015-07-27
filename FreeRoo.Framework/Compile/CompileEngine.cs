@@ -14,8 +14,8 @@ namespace FreeRoo.Framework
 
 		public CompilerResults CompileProject (string projectFilePath)
 		{
-			MonoProjectResolver resolver = new MonoProjectResolver ();
-			MonoProject project = (MonoProject)resolver.Resolver (projectFilePath);
+			DefaultProjectResolver resolver = new DefaultProjectResolver ();
+			DefaultProject project = (DefaultProject)resolver.Resolver (projectFilePath);
 			Compiler compiler = new Compiler ();
 			bool ifExe = project.OutPutType == ProjectOutPutType.Exe ? true : false;
 			return compiler.Compile (project.CSFiles, project.AssemblyName + "." + project.OutPutType.ToString ().ToLower (), ifExe, true);

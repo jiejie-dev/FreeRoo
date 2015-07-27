@@ -1,6 +1,11 @@
-﻿<Properties StartupItem="CompileTest/CompileTest.csproj">
+﻿<Properties StartupItem="FreeRoo.Empty/FreeRoo.Empty.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.Blog/Models/Repository.cs">
+    <Files>
+      <File FileName="FreeRoo.Blog/Models/Repository.cs" Line="30" Column="4" />
+      <File FileName="FreeRoo.Blog/Data/MongoDBHelper.cs" Line="11" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

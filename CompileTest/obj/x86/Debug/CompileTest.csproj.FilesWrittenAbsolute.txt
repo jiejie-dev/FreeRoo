@@ -1,7 +1,0 @@
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/bin/Debug/FreeRoo.Framework.dll
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/bin/Debug/FreeRoo.Framework.dll.mdb
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/bin/Debug/CompileTest.exe.mdb
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/bin/Debug/CompileTest.exe
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/obj/x86/Debug/CompileTest.exe
-/home/lujiejie/summerworksapce/code/FreeRoo/CompileTest/obj/x86/Debug/CompileTest.exe.mdb

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompileTest", "CompileTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDemo.csproj", "{C490E655-BACC-48A3-A604-AF77AE296592}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveModuleTest", "ActiveModuleTest\ActiveModuleTest.csproj", "{5A482FC5-5CB1-41B2-924B-429CFB5B743F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Blog", "FreeRoo.Blog\FreeRoo.Blog.csproj", "{B63AF275-3445-4C51-9697-A60EDAAE3D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,10 +25,18 @@ Global
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Debug|x86.Build.0 = Debug|x86
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Release|x86.ActiveCfg = Release|x86
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Release|x86.Build.0 = Release|x86
+		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Debug|x86.Build.0 = Debug|Any CPU
+		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.Build.0 = Release|Any CPU
 		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Debug|x86.ActiveCfg = Debug|x86
 		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Debug|x86.Build.0 = Debug|x86
 		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Release|x86.ActiveCfg = Release|x86
 		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Release|x86.Build.0 = Release|x86
+		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.Build.0 = Debug|Any CPU
+		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Release|x86.ActiveCfg = Release|Any CPU
+		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Release|x86.Build.0 = Release|Any CPU
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Debug|x86.ActiveCfg = Debug|x86
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Debug|x86.Build.0 = Debug|x86
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Release|x86.ActiveCfg = Release|x86

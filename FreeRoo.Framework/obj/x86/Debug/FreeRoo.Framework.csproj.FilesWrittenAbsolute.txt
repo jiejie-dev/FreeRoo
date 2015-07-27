@@ -1,5 +1,12 @@
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Framework/bin/Debug/FreeRoo.Framework.dll.mdb
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Framework/bin/Debug/FreeRoo.Framework.dll
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/FreeRoo.Framework.dll
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/FreeRoo.Framework.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Microsoft.Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Nancy.Demo.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Nancy.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Nancy.Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Nancy.ViewEngines.Razor.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/System.Web.Razor.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/FreeRoo.Framework.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/bin/Debug/FreeRoo.Framework.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/FreeRoo.Framework.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Framework/obj/x86/Debug/FreeRoo.Framework.dll.mdb

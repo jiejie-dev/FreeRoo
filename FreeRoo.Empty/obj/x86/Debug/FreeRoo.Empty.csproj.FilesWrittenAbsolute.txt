@@ -1,1 +1,0 @@
-/home/lujiejie/summerworksapce/code/FreeRoo/FreeRoo.Empty/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs

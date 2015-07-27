@@ -1,0 +1,15 @@
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Nancy.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Nancy.ViewEngines.Razor.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Nancy.Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Microsoft.Owin.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/System.Web.Razor.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/FreeRoo.Blog.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/FreeRoo.Blog.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/obj/Debug/FreeRoo.Blog.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/obj/Debug/FreeRoo.Blog.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/MongoDB.Driver.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/MongoDB.Bson.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Simple.Data.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Blog/bin/Debug/Simple.Data.MongoDB.dll
