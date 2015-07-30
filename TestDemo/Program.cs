@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Net;
+using StanSoft;
+using System.Web.UI;
+using System.Linq;
 
 namespace TestDemo
 {
@@ -6,7 +10,7 @@ namespace TestDemo
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Test Demo");
+			
 		}
 	}
 }

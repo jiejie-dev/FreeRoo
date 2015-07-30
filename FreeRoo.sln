@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Empty", "FreeRoo.Empty\FreeRoo.Empty.csproj", "{ABA89AAD-4A3D-4015-94EF-A06790EF4293}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Core", "FreeRoo.Core\FreeRoo.Core.csproj", "{CCE08647-1299-4081-8A67-0C2D5F246A20}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Framework", "FreeRoo.Framework\FreeRoo.Framework.csproj", "{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompileTest", "CompileTest\CompileTest.csproj", "{221A9C07-B0DC-42BC-A97C-7C963F906F73}"
@@ -13,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveModuleTest", "ActiveModuleTest\ActiveModuleTest.csproj", "{5A482FC5-5CB1-41B2-924B-429CFB5B743F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Blog", "FreeRoo.Blog\FreeRoo.Blog.csproj", "{B63AF275-3445-4C51-9697-A60EDAAE3D95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Web", "FreeRoo.Web\FreeRoo.Web.csproj", "{B63AF275-3445-4C51-9697-A60EDAAE3D95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +25,6 @@ Global
 		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Debug|x86.Build.0 = Debug|Any CPU
 		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.Build.0 = Release|Any CPU
-		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Debug|x86.ActiveCfg = Debug|x86
-		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Debug|x86.Build.0 = Debug|x86
-		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Release|x86.ActiveCfg = Release|x86
-		{ABA89AAD-4A3D-4015-94EF-A06790EF4293}.Release|x86.Build.0 = Release|x86
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.Build.0 = Debug|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Release|x86.ActiveCfg = Release|Any CPU
@@ -41,10 +33,6 @@ Global
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Debug|x86.Build.0 = Debug|x86
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Release|x86.ActiveCfg = Release|x86
 		{C490E655-BACC-48A3-A604-AF77AE296592}.Release|x86.Build.0 = Release|x86
-		{CCE08647-1299-4081-8A67-0C2D5F246A20}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{CCE08647-1299-4081-8A67-0C2D5F246A20}.Debug|x86.Build.0 = Debug|Any CPU
-		{CCE08647-1299-4081-8A67-0C2D5F246A20}.Release|x86.ActiveCfg = Release|Any CPU
-		{CCE08647-1299-4081-8A67-0C2D5F246A20}.Release|x86.Build.0 = Release|Any CPU
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Debug|x86.ActiveCfg = Debug|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Debug|x86.Build.0 = Debug|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Release|x86.ActiveCfg = Release|x86

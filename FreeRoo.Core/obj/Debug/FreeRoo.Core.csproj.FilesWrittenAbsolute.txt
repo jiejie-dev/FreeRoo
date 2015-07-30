@@ -1,5 +1,0 @@
-/home/lujiejie/work/code/FreeRoo/FreeRoo.Core/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/lujiejie/work/enviroment/tinyfox-2.0/site/wwwroot/bin/FreeRoo.Core.dll.mdb
-/home/lujiejie/work/enviroment/tinyfox-2.0/site/wwwroot/bin/FreeRoo.Core.dll
-/home/lujiejie/work/code/FreeRoo/FreeRoo.Core/obj/Debug/FreeRoo.Core.dll
-/home/lujiejie/work/code/FreeRoo/FreeRoo.Core/obj/Debug/FreeRoo.Core.dll.mdb

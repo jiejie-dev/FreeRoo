@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B63AF275-3445-4C51-9697-A60EDAAE3D95}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FreeRoo.Web</RootNamespace>
+    <AssemblyName>FreeRoo.Blog</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\enviroment\tinyfox-2.0\site\wwwroot\bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\enviroment\tinyfox-2.0\site\wwwroot\bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.ViewEngines.Razor">
+      <HintPath>..\packages\Nancy.ViewEngines.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Owin">
+      <HintPath>..\packages\Nancy.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="MongoDB">
+      <HintPath>..\packages\MongoDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Html2Article">
+      <HintPath>..\packages\Html2Article.1.17.0\lib\40\Html2Article.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy">
+      <HintPath>..\packages\Nancy.1.2.0\lib\net40\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Bootstrappers.Autofac">
+      <HintPath>..\packages\Nancy.Bootstrappers.Autofac.1.2.0\lib\net40\Nancy.Bootstrappers.Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IArticleService.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\Markdown.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Adapter.cs" />
+    <Compile Include="Configs\SiteRootPath.cs" />
+    <Compile Include="Configs\RazorConfig.cs" />
+    <Compile Include="Modules\HomeModule.cs" />
+    <Compile Include="Models\IndexRenderData.cs" />
+    <Compile Include="Modules\AdminModule.cs" />
+    <Compile Include="Interfaces\ILogger.cs" />
+    <Compile Include="Interfaces\IDataConfig.cs" />
+    <Compile Include="Structs\LogType.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Data\MongoDBHelper.cs" />
+    <Compile Include="Interfaces\IDBHelper.cs" />
+    <Compile Include="Modules\BaseModule.cs" />
+    <Compile Include="API\ToolApi.cs" />
+    <Compile Include="API\OAuthApi.cs" />
+    <Compile Include="Interfaces\IWebToolService.cs" />
+    <Compile Include="Services\ArticleService.cs" />
+    <Compile Include="Services\WebToolService.cs" />
+    <Compile Include="Data\Repository.cs" />
+    <Compile Include="Tools\Logger.cs" />
+    <Compile Include="Structs\Log.cs" />
+    <Compile Include="Data\MongoDataConfig.cs" />
+    <Compile Include="Data\DataConfig.cs" />
+    <Compile Include="BlogBootstrapper.cs" />
+    <Compile Include="Interfaces\IDependency.cs" />
+    <Compile Include="Modules\ArticleModule.cs" />
+    <Compile Include="Modules\WebToolModule.cs" />
+    <Compile Include="Models\PageData.cs" />
+    <Compile Include="Structs\Message.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Modules\" />
+    <Folder Include="Models\" />
+    <Folder Include="Configs\" />
+    <Folder Include="Views\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Structs\" />
+    <Folder Include="Data\" />
+    <Folder Include="API\" />
+    <Folder Include="Services\" />
+    <Folder Include="Tools\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Views\index.html" />
+  </ItemGroup>
+</Project>
