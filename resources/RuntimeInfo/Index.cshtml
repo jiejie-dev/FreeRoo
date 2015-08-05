@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Admin/Admin.cshtml";
+}
+
+<table>
+    @foreach(var item in FreeRoo.TemplateDataHelper.GetRuntimeInfo())
+    {
+        <tr>
+            <td>@item.Key</td>
+            <td>@item.Value</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Admin/Admin.cshtml";
+}
+@model IEnumerable<FreeRoo.ArticleTag>
+
+<form action="/ArticleTag/DoUpdate.do" method="post">
+    <textarea name="Tags" style="width:100%;">
+        @foreach (var item in Model)
+        {
+            string.Format("{0},", @item.TagName);
+        }
+    </textarea>
+    <button class="btn btn-default">保存</button>
+</form>

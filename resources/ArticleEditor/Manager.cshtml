@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "管理文章";
+    Layout = "~/Views/Admin/Admin.cshtml";
+}
+
+@model IEnumerable<FreeRoo.Article>
+
+    <div class="container">
+        <div>
+            <form role="form" class="form-inline" method="post" action="/ArticleEditor/Manager.do">
+                <div class="form-group">
+                    <label for="key">搜索条件</label>
+                    <input id="key" class="form-control" name="key" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="categoryID">目录</label>
+                    <select name="categoryID" id="categoryID" class="form-control">
+                        @foreach (var Item in FreeRoo.TemplateDataHelper.GetCategories())
+                        {
+                            <option value="@Item.CategoryName">@Item.CTitle</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pageIndex">页数</label>
+                    <select name="pageIndex" id="pageIndex" class="form-control">
+                        <option>1</option>
+                    </select>
+                </div>
+
+                <button id="btnView" class="btn btn-default">确定</button>
+            </form>
+        </div>
+        
+        <div style="margin-top:10px">
+            <ul class="list-group">
+                @foreach (var Item in Model)
+                {
+                    <li class="list-group-item">
+                        <span class="badge"><a href="/ArticleEditor/Update.do?ArticleID=@Item.ArticleID">编辑</a></span>
+                        <span class="badge"><a href="/ArticleEditor/Delete.do?ArticleID=@Item.ArticleID">删除</a></span>
+                        <a href="/ArticleEditor/Update.do?ArticleID=@Item.ArticleID">@Item.ATitle</a>
+                    </li>
+                }
+            </ul>
+        </div>            
+    </div>

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Framework", "FreeRoo.Framework\FreeRoo.Framework.csproj", "{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompileTest", "CompileTest\CompileTest.csproj", "{221A9C07-B0DC-42BC-A97C-7C963F906F73}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDemo.csproj", "{C490E655-BACC-48A3-A604-AF77AE296592}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveModuleTest", "ActiveModuleTest\ActiveModuleTest.csproj", "{5A482FC5-5CB1-41B2-924B-429CFB5B743F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Framework.CompileTest", "CompileTest\FreeRoo.Framework.CompileTest.csproj", "{221A9C07-B0DC-42BC-A97C-7C963F906F73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Web", "FreeRoo.Web\FreeRoo.Web.csproj", "{B63AF275-3445-4C51-9697-A60EDAAE3D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Developer", "FreeRoo.Developer\FreeRoo.Developer.csproj", "{E985AA33-233B-4B43-AD40-7D89767C5A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Developer.Core", "FreeRoo.Developer.Core\FreeRoo.Developer.Core.csproj", "{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,21 +21,21 @@ Global
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Debug|x86.Build.0 = Debug|x86
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Release|x86.ActiveCfg = Release|x86
 		{221A9C07-B0DC-42BC-A97C-7C963F906F73}.Release|x86.Build.0 = Release|x86
-		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Debug|x86.Build.0 = Debug|Any CPU
-		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.ActiveCfg = Release|Any CPU
-		{5A482FC5-5CB1-41B2-924B-429CFB5B743F}.Release|x86.Build.0 = Release|Any CPU
+		{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}.Debug|x86.Build.0 = Debug|Any CPU
+		{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}.Release|x86.ActiveCfg = Release|Any CPU
+		{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}.Release|x86.Build.0 = Release|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Debug|x86.Build.0 = Debug|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Release|x86.ActiveCfg = Release|Any CPU
 		{B63AF275-3445-4C51-9697-A60EDAAE3D95}.Release|x86.Build.0 = Release|Any CPU
-		{C490E655-BACC-48A3-A604-AF77AE296592}.Debug|x86.ActiveCfg = Debug|x86
-		{C490E655-BACC-48A3-A604-AF77AE296592}.Debug|x86.Build.0 = Debug|x86
-		{C490E655-BACC-48A3-A604-AF77AE296592}.Release|x86.ActiveCfg = Release|x86
-		{C490E655-BACC-48A3-A604-AF77AE296592}.Release|x86.Build.0 = Release|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Debug|x86.ActiveCfg = Debug|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Debug|x86.Build.0 = Debug|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Release|x86.ActiveCfg = Release|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Release|x86.Build.0 = Release|x86
+		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Debug|x86.ActiveCfg = Debug|x86
+		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Debug|x86.Build.0 = Debug|x86
+		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Release|x86.ActiveCfg = Release|x86
+		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "编辑栏目";
+    Layout = "~/Views/Admin/Admin.cshtml";
+}
+
+@model FreeRoo.Category
+
+    <div class="container">
+        <form role="form" class="form-horizontal" method="post" action="/CategoryEditor/DoUpdate.do">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="Name">栏目名称</label>
+                <input type="text" name="CName" class="form-control" value="@Model.CategoryName" id="Name" />
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="Title">栏目标题</label>
+                <input type="text" name="CTitle" class="form-control" value="@Model.CTitle" id="Title" />
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="CParentID">父栏目名称</label>
+                <select class="form-control" name="CParentID" id="CParentID">
+                    <option value="0">默认分类</option>
+                    @foreach (var Item in FreeRoo.TemplateDataHelper.GetCategories())
+                    {
+                        <option value="@Item.CategoryName">@Item.CTitle</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" name="submit" class="btn btn-default" value="添加" />
+            </div>
+        </form>
+            
+    </div>

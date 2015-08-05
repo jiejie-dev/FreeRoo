@@ -40,7 +40,6 @@
     <Compile Include="Compile\Compiler.cs" />
     <Compile Include="Compile\CompileEngine.cs" />
     <Compile Include="Compile\IProject.cs" />
-    <Compile Include="Resource.cs" />
     <Compile Include="Compile\DefaultProject.cs" />
     <Compile Include="Compile\DefaultProjectResolver.cs" />
   </ItemGroup>

@@ -1,6 +1,11 @@
-﻿<Properties StartupItem="CompileTest/CompileTest.csproj">
+﻿<Properties StartupItem="FreeRoo.Developer/FreeRoo.Developer.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.Developer/Commands/InstallCommand.cs">
+    <Files>
+      <File FileName="FreeRoo.Developer/Commands/InstallCommand.cs" Line="23" Column="52" />
+      <File FileName="FreeRoo.Developer/Commands/ExitCommand.cs" Line="26" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

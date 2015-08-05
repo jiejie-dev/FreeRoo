@@ -1,0 +1,5 @@
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Developer.Core/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Developer.Core/bin/Debug/FreeRoo.Developer.Core.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Developer.Core/bin/Debug/FreeRoo.Developer.Core.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Developer.Core/obj/Debug/FreeRoo.Developer.Core.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.Developer.Core/obj/Debug/FreeRoo.Developer.Core.dll.mdb
