@@ -27,7 +27,7 @@
                     width   : "90%",
                     height  : 640,
                     syncScrolling : "single",
-                    path    : "./public/editor.md/lib/"
+                    path    : "../lib/"
                 });
                 
                 /*
