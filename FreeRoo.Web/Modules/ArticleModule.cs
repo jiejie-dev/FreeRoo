@@ -22,13 +22,13 @@ namespace FreeRoo.Web
 				string slug = _.slug;
 				var article = service.Table.FirstOrDefault (ssss => ssss.Slug == slug);
 				if (article != null) {
-					string article_html = MarkdownTemplate.article_template.Replace ("{article.content}", article.Content);
+					string article_html = TemplatesCache.Current.Items["article_template"].Replace ("{article.content}", article.Content);
 					article_html = article_html.Replace ("{article.title}", article.Title);
 					article_html=article_html.Replace ("{article.href}","/article/"+article.Slug);
-					article_html=MarkdownTemplate.index_template.Replace ("{content}",article_html);
-					article_html=article_html.Replace ("{strapdown}",MarkdownTemplate.strapdown_js);
-					article_html=article_html.Replace ("{site.name}",MarkdownTemplate.site_name);
-					article_html=article_html.Replace ("{copyright}",MarkdownTemplate.copy_right);
+					article_html=TemplatesCache.Current.Items["index_template"].Replace ("{content}",article_html);
+					article_html=article_html.Replace ("{strapdown}",TemplatesCache.Current.Items["strapdown_js"]);
+					article_html=article_html.Replace ("{site.name}",TemplatesCache.Current.Items["site_name"]);
+					article_html=article_html.Replace ("{copyright}",TemplatesCache.Current.Items["copy_right"]);
 					return article_html;
 				} else {
 					return "Article Not Found !";
@@ -67,7 +67,7 @@ namespace FreeRoo.Web
 			Get ["/editor/{id}"] = _ => {
 				string id=_.id;
 				var article = service.GetSingleByID (id);
-				string editor_template = MarkdownTemplate.editor_template;
+				string editor_template = TemplatesCache.Current.Items["editor_template"];
 				editor_template=editor_template.Replace ("{post_url}","/article/update");
 				editor_template=editor_template.Replace ("{title}",article.Title);
 				editor_template=editor_template.Replace ("{slug}",article.Slug);
@@ -76,7 +76,7 @@ namespace FreeRoo.Web
 				return editor_template;
 			};
 			Get ["/editor"] = _ => {
-				string editor_template = MarkdownTemplate.editor_template;
+				string editor_template = TemplatesCache.Current.Items["editor_template"];
 				editor_template=editor_template.Replace ("{post_url}","/article/");
 				editor_template=editor_template.Replace ("{title}","");
 				editor_template=editor_template.Replace ("{slug}","");

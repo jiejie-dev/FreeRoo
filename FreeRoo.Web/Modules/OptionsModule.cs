@@ -5,11 +5,11 @@ namespace FreeRoo.Web
 {
 	public class TemplateModule:BaseModule
 	{
-		public TemplateModule (ITemplateService service)
+		public TemplateModule (IOptionsService service)
 			:base("/options")
 		{
 			Get ["/options"] = _ => {
-				string template=MarkdownTemplate.index;
+				string template=TemplatesCache.Current.Items["index"];
 				var templates=service.Table.ToList ();
 				string current="";
 				foreach(var item in templates){

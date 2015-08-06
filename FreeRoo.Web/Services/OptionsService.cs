@@ -20,7 +20,7 @@ namespace FreeRoo.Web
 		}
 		public IQueryable<Option> Table{
 			get {
-				this.repository.Table;
+				return this.repository.Table;
 			}
 		}
 

@@ -103,6 +103,7 @@
     <Compile Include="Services\OptionsService.cs" />
     <Compile Include="Modules\MdModule.cs" />
     <Compile Include="TemplatesCache.cs" />
+    <Compile Include="FreeRooViewEngine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -8,7 +8,7 @@ namespace FreeRoo.Web
 			:base("/md")
 		{
 			Get ["/{name}"] = _ => {
-
+				return "md_name";
 			};
 		}
 	}
