@@ -43,7 +43,14 @@ namespace FreeRoo.Web
 			};
 			Post ["/"] = _ => {
 				var article = this.Bind<Article> ();
+				article.CreateTime=DateTime.Now;
+				article.ID=DateTime.Now.ToString ("yyyyMMdd")+service.Table.Count ();
 				service.AddArticle (article);
+				return Response.AsJson (Message.Success);
+			};
+			Post ["/update"] = _ => {
+				var article = this.Bind <Article>();
+				service.UpdateArticle (article);
 				return Response.AsJson (Message.Success);
 			};
 			Put ["/"] = _ => {
@@ -58,10 +65,24 @@ namespace FreeRoo.Web
 				return Response.AsJson (Message.Success);
 			};
 			Get ["/editor/{id}"] = _ => {
-
+				string id=_.id;
+				var article = service.GetSingleByID (id);
+				string editor_template = MarkdownTemplate.editor_template;
+				editor_template=editor_template.Replace ("{post_url}","/article/update");
+				editor_template=editor_template.Replace ("{title}",article.Title);
+				editor_template=editor_template.Replace ("{slug}",article.Slug);
+				editor_template=editor_template.Replace ("{tags}",article.Tag);
+				editor_template=editor_template.Replace ("{content}",article.Content);
+				return editor_template;
 			};
 			Get ["/editor"] = _ => {
-
+				string editor_template = MarkdownTemplate.editor_template;
+				editor_template=editor_template.Replace ("{post_url}","/article/");
+				editor_template=editor_template.Replace ("{title}","");
+				editor_template=editor_template.Replace ("{slug}","");
+				editor_template=editor_template.Replace ("{tags}","");
+				editor_template=editor_template.Replace ("{content}","");
+				return editor_template;
 			};
 		}
 	}

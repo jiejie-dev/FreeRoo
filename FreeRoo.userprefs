@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="FreeRoo.Developer/FreeRoo.Developer.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.Developer/Commands/InstallCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.Web/Modules/ArticleModule.cs">
     <Files>
-      <File FileName="FreeRoo.Developer/Commands/InstallCommand.cs" Line="23" Column="52" />
-      <File FileName="FreeRoo.Developer/Commands/ExitCommand.cs" Line="26" Column="3" />
+      <File FileName="FreeRoo.Web/Modules/AdminModule.cs" Line="1" Column="1" />
+      <File FileName="FreeRoo.Web/Modules/ArticleModule.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
