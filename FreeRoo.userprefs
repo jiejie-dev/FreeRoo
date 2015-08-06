@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="FreeRoo.Developer/FreeRoo.Developer.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.Web/Modules/ArticleModule.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeRoo.TemplateEngine/Common/Element.cs">
     <Files>
       <File FileName="FreeRoo.Web/Modules/AdminModule.cs" Line="1" Column="1" />
       <File FileName="FreeRoo.Web/Modules/ArticleModule.cs" Line="1" Column="1" />
+      <File FileName="FreeRoo.Web/Adapter.cs" Line="1" Column="1" />
+      <File FileName="FreeRoo.Web/BlogBootstrapper.cs" Line="13" Column="4" />
+      <File FileName="FreeRoo.Web/TemplatesCache.cs" Line="22" Column="31" />
+      <File FileName="FreeRoo.TemplateEngine/Common/Element.cs" Line="8" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -96,7 +96,13 @@
     <Compile Include="Models\PageData.cs" />
     <Compile Include="Structs\Message.cs" />
     <Compile Include="Resource.cs" />
-    <Compile Include="MarkdownTemplate.cs" />
+    <Compile Include="Modules\InstallModule.cs" />
+    <Compile Include="Modules\OptionsModule.cs" />
+    <Compile Include="Interfaces\IOptionsService.cs" />
+    <Compile Include="Models\Option.cs" />
+    <Compile Include="Services\OptionsService.cs" />
+    <Compile Include="Modules\MdModule.cs" />
+    <Compile Include="TemplatesCache.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -112,6 +118,7 @@
     <Folder Include="public\" />
     <Folder Include="public\strapdown\" />
     <Folder Include="public\editor.md\" />
+    <Folder Include="public\template\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -519,5 +526,16 @@
     <None Include="public\editor.md\plugins\table-dialog\table-dialog.js" />
     <None Include="public\editor.md\plugins\test-plugin\test-plugin.js" />
     <None Include="public\editor.md\src\editormd.js" />
+    <None Include="Configs\uninstalled.lock" />
+    <None Include="public\template\template_editor.html" />
+    <None Include="public\template\article_editor.html" />
+    <None Include="public\template\index.html" />
+    <None Include="public\template\index_item.html" />
+    <None Include="public\template\article_view.html" />
+    <None Include="public\template\article_editor_list.html" />
+    <None Include="public\template\template_editor_list.html" />
+    <None Include="public\template\copyright.html" />
+    <None Include="public\template\strapdown_js_src.html" />
+    <None Include="public\template\md_editor.html" />
   </ItemGroup>
 </Project>

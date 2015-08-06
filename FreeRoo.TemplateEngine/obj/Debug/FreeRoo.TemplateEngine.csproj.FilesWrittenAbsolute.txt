@@ -1,0 +1,6 @@
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/bin/Debug/System.Data.SQLite.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/bin/Debug/Roo.dll.mdb
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/bin/Debug/Roo.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/obj/Debug/Roo.dll
+/home/lujiejie/work/code/FreeRoo/FreeRoo.TemplateEngine/obj/Debug/Roo.dll.mdb

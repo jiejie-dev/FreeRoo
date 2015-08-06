@@ -1,0 +1,13 @@
+H:\MyProgram\Roo\Roo\bin\Debug\Roo.dll
+H:\MyProgram\Roo\Roo\bin\Debug\Roo.pdb
+H:\MyProgram\Roo\Roo\obj\Debug\Roo.csprojResolveAssemblyReference.cache
+H:\MyProgram\Roo\Roo\obj\Debug\Roo.dll
+H:\MyProgram\Roo\Roo\obj\Debug\Roo.pdb
+D:\MyProgram\Roo\Roo\obj\Debug\Roo.dll
+D:\MyProgram\Roo\Roo\obj\Debug\Roo.pdb
+D:\MyProgram\Roo\Roo\bin\Debug\Roo.dll
+D:\MyProgram\Roo\Roo\bin\Debug\Roo.pdb
+C:\Users\lujiejie\Desktop\Roo\Roo\bin\Debug\Roo.dll
+C:\Users\lujiejie\Desktop\Roo\Roo\bin\Debug\Roo.pdb
+C:\Users\lujiejie\Desktop\Roo\Roo\obj\Debug\Roo.dll
+C:\Users\lujiejie\Desktop\Roo\Roo\obj\Debug\Roo.pdb

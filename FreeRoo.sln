@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Developer", "FreeRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.Developer.Core", "FreeRoo.Developer.Core\FreeRoo.Developer.Core.csproj", "{51C872C3-3CC1-49ED-867E-A8D7EDE3E858}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeRoo.TemplateEngine", "FreeRoo.TemplateEngine\FreeRoo.TemplateEngine.csproj", "{E718EFAC-451A-41A5-831B-8AFBED0269BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,6 +35,10 @@ Global
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Debug|x86.Build.0 = Debug|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Release|x86.ActiveCfg = Release|x86
 		{E3F311EC-F357-4AC9-AC48-EB7199FB00ED}.Release|x86.Build.0 = Release|x86
+		{E718EFAC-451A-41A5-831B-8AFBED0269BE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E718EFAC-451A-41A5-831B-8AFBED0269BE}.Debug|x86.Build.0 = Debug|Any CPU
+		{E718EFAC-451A-41A5-831B-8AFBED0269BE}.Release|x86.ActiveCfg = Release|Any CPU
+		{E718EFAC-451A-41A5-831B-8AFBED0269BE}.Release|x86.Build.0 = Release|Any CPU
 		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Debug|x86.ActiveCfg = Debug|x86
 		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Debug|x86.Build.0 = Debug|x86
 		{E985AA33-233B-4B43-AD40-7D89767C5A97}.Release|x86.ActiveCfg = Release|x86

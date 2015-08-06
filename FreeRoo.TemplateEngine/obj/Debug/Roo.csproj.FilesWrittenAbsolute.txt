@@ -1,0 +1,2 @@
+/home/lujiejie/work/code/Roo/Roo/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/lujiejie/work/code/Roo/Roo/bin/Debug/System.Data.SQLite.dll

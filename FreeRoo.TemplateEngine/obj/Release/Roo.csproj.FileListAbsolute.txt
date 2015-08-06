@@ -1,0 +1,5 @@
+D:\MyProgram\Roo\Roo\bin\Release\Roo.dll
+D:\MyProgram\Roo\Roo\bin\Release\Roo.pdb
+D:\MyProgram\Roo\Roo\obj\Release\Roo.csprojResolveAssemblyReference.cache
+D:\MyProgram\Roo\Roo\obj\Release\Roo.dll
+D:\MyProgram\Roo\Roo\obj\Release\Roo.pdb
